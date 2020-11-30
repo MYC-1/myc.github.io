@@ -4,33 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>马云超的个人博客</title>
     <script src="../lib/vue.js"></script>
+    <title>马云超的个人博客</title>
 </head>
 
 <body>
-    <div class="container">
+    <div id="container">
         <div>
             {{index}}
         </div>
     </div>
-    <script>
-        var shouye = new Vue({
-            el: "#container",
-            data: {
-                index: "首页"
-            },
-            methods: {
-
-            },
-            created() {
-
-            },
-            mounted() {
-
-            },
-        });
-    </script>
 </body>
+<script>
+    var shouye = new Vue({
+        el: "#container",
+        data: {
+            index: "首页"
+        },
+        methods: {
+
+        },
+        created() {
+
+        },
+        mounted() {
+
+        },
+    });
+</script>
 
 </html>
